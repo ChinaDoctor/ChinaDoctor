@@ -111,8 +111,16 @@ function showNext(){
 	window.location="http://www.baidu.com";
 }
 
-function backTop() {
+/*function backTop() {
 	$('#backTop').click(function(){
-		$(window).scrollTop(0);
+		$(window).scrollTop(0,0);
 	});
+}*/
+
+function smoothscroll(){  
+    var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;  
+    if (currentScroll > 0) {  
+         window.requestAnimationFrame(smoothscroll);  
+         window.scrollTo (0,currentScroll - (currentScroll/5));  
+    }  
 }
