@@ -1,3 +1,6 @@
 #mainTop {
-	background-image: url(../img/back2.jpg);	
+	background:	pink;
+}
+#container {
+	padding: 0;
 }
