@@ -1,6 +1,6 @@
-#mainTop {
-	background:	pink;
-}
-#container {
-	padding: 0;
+#navbar {
+	margin: 0;
+	height: 50px;
+	float: inherit;
+	opacity: 0.9;
 }
